@@ -31,12 +31,12 @@ This architecture prevents UI freezing on low-power devices.
 ---
 
 ## Hardware Setup
-![Hardware Setup](images/hardware_setup.jpg)
+![Hardware Setup](images/hardware_setup.jpeg)
 
 ---
 
 ## Software Interface
-![GUI Running](images/gui_running.png)
+![GUI Running](images/gui_running.jpeg)
 
 ---
 
