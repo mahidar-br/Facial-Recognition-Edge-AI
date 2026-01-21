@@ -51,6 +51,25 @@ This architecture prevents UI freezing on low-power devices.
 
 ---
 
+## Cloud Integration (Google Sheets API)
+
+The system logs attendance events in real time to Google Sheets using OAuth-based authentication.
+Each successful face recognition triggers an API call that appends a new row containing:
+
+- Student ID
+- Student Name
+- Date
+- Time
+
+This sheet acts as a lightweight cloud backend for attendance monitoring and analysis.
+
+![Google Sheets API Result](images/googlesheets_api.png)
+
+**Note:**  
+The displayed sheet represents raw event-level data.  
+Higher-level attendance summaries (first entry per day, dashboards) can be derived from this data.
+
+
 ## Notes on Academic Use
 This project is an academic prototype developed for learning and demonstration purposes.  
 The title aligns with existing research literature, but this work does not reproduce or extend any specific published paper.
